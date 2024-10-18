@@ -1,0 +1,35 @@
+#hero {
+    height: 80vh;
+    display: flex;
+    gap: .2em;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#hero h1 {font-size: 2.5em;}
+#hero a {margin-top: .75em;}
+
+#explain p {margin: .75em 0;}
+#features, .head-features {display: flex;}
+#features {flex-direction: column;}
+.head-features {
+    align-items: center;
+    gap: 1.25em;
+    margin-top: 2em;
+}
+.head-features > img {
+    width: 2.85em;
+    height: 2.85em;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#docs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#docs a {margin-top: 1.2em;}
+#docs p {margin-top: .5em;}

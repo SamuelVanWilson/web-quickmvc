@@ -3,7 +3,7 @@ export default class Footer extends HTMLElement {
     	<style>
             footer {
                 background-color: rgb(201, 201, 201);
-                padding: 8px 10px ;
+                padding: 18px 10px 8px 10px ;
             }
             footer p {color: rgba(0, 0, 0, 0.699);}
             footer section {

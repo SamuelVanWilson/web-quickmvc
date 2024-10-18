@@ -6,12 +6,50 @@
     <title>Counter with Web Components</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/1.0.7/webcomponents-lite.js"></script>
     <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/home.css">
     <script type="module" src="/bootstrap.js"></script>
 </head>
 <body>
     <layout-component>
         <section slot="content">
             <alert-component></alert-component>
+            <article id="hero">
+                <h1>Simple, Fast, and Ready to Use.</h1>
+                <p>Start your project with a lightweight MVC framework.</p>
+                <a href="/pages/get-started/installation.html" class="btn">Get Started</a>
+            </article>
+            <article id="explain">
+                <h2>What is QuickMVC?</h2>
+                <p>QuickMVC is a simple framework designed to help you understand and implement the Model-View-Controller (MVC) concepts in web application development. With a focus on ease of use and speed, QuickMVC provides a clear structure and a solid foundation to kickstart your projects.</p>
+                <section id="features">
+                    <section>
+                        <section class="head-features">
+                            <img src="/img/default3.png">
+                            <h3>Simple Structure</h3>
+                        </section>
+                        <p>With an organized folder structure, you can easily grasp how each part of the application functions.</p>
+                    </section>
+                    <section>
+                        <section class="head-features">
+                            <img src="/img/default3.png">
+                            <h3>Efficient Learning</h3>
+                        </section>
+                        <p>Ideal for beginners and developers looking to refresh their understanding of MVC and OOP without unnecessary complexity.</p>
+                    </section>
+                    <section>
+                        <section class="head-features">
+                            <img src="/img/default3.png">
+                            <h3>Easy Customization</h3>
+                        </section>
+                        <p>With a flexible architecture, you can quickly tailor and expand your applications to meet your needs.</p>
+                    </section>
+                </section>
+            </article>
+            <article id="docs">
+                <h2>Explore the Documentation</h2>
+                <p>Ready to dive deeper? Our comprehensive documentation will guide you through the features and functionalities of QuickMVC.</p>
+                <a href="/pages/get-started/introduction.html" class="btn btn-large">Documentation</a>
+            </article>
         </section>
     </layout-component>
 </body>

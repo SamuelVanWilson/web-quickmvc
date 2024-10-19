@@ -154,24 +154,24 @@ export default class Header extends HTMLElement {
                 <nav aria-label="Get Started">
                     <h3>Get Started</h3>
                     <ul>
-                        <li><a href="/pages/get-started/introduction.html">Introduction</a></li>
-                        <li><a href="/pages/get-started/installation.html">Installation </a></li>
+                        <li><a href="https://samuelvanwilson.github.io/pages/get-started/introduction.html">Introduction</a></li>
+                        <li><a href="https://samuelvanwilson.github.io/pages/get-started/installation.html">Installation </a></li>
                     </ul>
                 </nav>
                 <nav aria-label="Structure Directory">
                     <h3>Structure Directory</h3>
                     <ul>
-                        <li><a href="/pages/structure-directory/app.html">App</a></li>
-                        <li><a href="/pages/structure-directory/config.html">Config</a></li>
-                        <li><a href="/pages/structure-directory/public.html">Public</a></li>
+                        <li><a href="https://samuelvanwilson.github.io/pages/structure-directory/app.html">App</a></li>
+                        <li><a href="https://samuelvanwilson.github.io/pages/structure-directory/config.html">Config</a></li>
+                        <li><a href="https://samuelvanwilson.github.io/pages/structure-directory/public.html">Public</a></li>
                     </ul>
                 </nav>
                 <nav aria-label="MVC Concept">
                     <h3>MVC Concept</h3>
                     <ul>
-                        <li><a href="/pages/structure-directory/model.html">Model</a></li>
-                        <li><a href="/pages/structure-directory/view.html">View</a></li>
-                        <li><a href="/pages/structure-directory/controller.html">Controller</a></li>
+                        <li><a href="https://samuelvanwilson.github.io/pages/structure-directory/model.html">Model</a></li>
+                        <li><a href="https://samuelvanwilson.github.io/pages/structure-directory/view.html">View</a></li>
+                        <li><a href="https://samuelvanwilson.github.io/pages/structure-directory/controller.html">Controller</a></li>
                     </ul>
                 </nav>
             </section>

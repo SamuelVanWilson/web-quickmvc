@@ -26,3 +26,9 @@ p {font-size: 1.2em;}
 .btn-large {
     font-size: 1.2rem;
 }
+
+@keyframes spin-text {
+    0%, 100% {transform: translateY(0px);}
+    25%, 75% {transform: translateY(-40px);}
+    50% {transform: translateY(-75px);}
+}

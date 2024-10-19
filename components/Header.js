@@ -154,7 +154,6 @@ export default class Header extends HTMLElement {
                 <nav aria-label="Get Started">
                     <h3>Get Started</h3>
                     <ul>
-                        <li><a href="/pages/index.html" >Test</a></li>
                         <li><a href="/pages/get-started/introduction.html">Introduction</a></li>
                         <li><a href="/pages/get-started/installation.html">Installation </a></li>
                     </ul>
